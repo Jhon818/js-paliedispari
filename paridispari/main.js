@@ -10,25 +10,27 @@ function randomNumbers(num1,num2) {
 console.log(randomNumbers(1,5));
 
 
-function sommaNumeri(num1,num2) {
+function sommaNumeri(randomNumbers) {
     var risultato = num1 + num2;
     return risultato;
 }
 
-var somma = sommaNumeri
 
-function isEven(somma) {
-    return somma % 2 == 0;
+function isEven(risultato) {
+    return risultato % 2 == 0;
  }
+
  
- function isOdd(somma) {
-    return Math.abs(somma % 2) == 1;
+ function isOdd(risultato) {
+    return (risultato % 2) == 1;
 }
 
-if (isEven == 0) {
-    alert("Even win")
+
+
+if (isEven %2) {
+    alert("Even win");
 }
 
-else if (isOdd == 1) {
-    alert("Odd win")
+else {
+    alert("Odd win");
 }

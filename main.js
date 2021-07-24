@@ -6,3 +6,5 @@ function palindrome(s) {
     return s == s.split("").reverse().join("");
 }
 alert(palindrome(word)); 
+
+
